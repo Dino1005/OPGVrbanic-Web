@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0,0.4),rgba(0,0,0, 0.4)), url('../images/header.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+/*---------- NAVIGACIJA ---------- */
+
+
+nav{
+  display: flex;
+  padding: 2%;
+  align-items: center;
+}
+
+nav img{
+  width: 250px;
+}
+
+
+/*---------- NASLOV ---------- */
+
+
+.naslov{
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.naslov h1{
+  font-size: 50px;
+}
+
+
+/*---------- GALERIJA ---------- */
+
+
+.slika{
+  margin: 40px auto;
+  width: 50%;
+  background: rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: 10px 10px;
+  box-shadow: 0px 0px 15px rgb(141, 141, 141);
+}
+
+.slika img{
+  width: 100%;
+}
+
+.gumbovi{
+  text-align: center
+}
+
+.gumbovi button{
+  background:rgba(25, 122, 33, 0.8);
+  padding: 10px 30px;
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.gumbovi button:hover{
+  background: gray;
+}

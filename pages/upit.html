@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/upit.css"> 
+  <title>OPG Vrbanić</title>
+</head>
+<body>
+  <main>
+    <nav>
+      <a href="../index.html#ponuda"><img src="../images/logo.png" alt=""></a>
+    </nav>
+
+    <div class="naslov">
+      <h1>Pošalji nam upit</h1>
+    </div>
+
+    <form>
+      <div>
+        <input type="text" id="ime" placeholder="Ime" required>
+      </div>
+      <div>
+        <input type="text" id="prezime" placeholder="Prezime" required>
+      </div>
+      <div>
+        <input type="email" id="email" placeholder="Email" required>
+      </div>
+      <div>
+        <label for="usluga"><b>Odaberi uslugu:</b></label>
+        <select name="usluga" id="usluga">
+          <option value="ostalo">Ostalo</option>
+          <option value="baliranje">Baliranje</option>
+          <option value="prijevoz">Prijevoz</option>
+          <option value="vrsenje">Vršenje</option>
+          <option value="spricanje">Špricanje</option>
+          <option value="sijanje">Sijanje</option>
+        </select>
+      </div>
+      <div>
+        <textarea name="poruka" rows="10" cols="60" id="poruka" placeholder="Vaša poruka"></textarea>
+      </div>
+      <div>
+        <button>Pošalji</button>
+      </div>
+    </form>
+  </main>
+
+</body>
+</html>
